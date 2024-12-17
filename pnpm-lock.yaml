@@ -69,8 +69,8 @@ importers:
         specifier: ^4.1.1
         version: 4.1.1(picomatch@4.0.2)(svelte@5.14.0)(typescript@5.7.2)
       svelte-meta-tags:
-        specifier: ^3.1.4
-        version: 3.1.4(svelte@5.14.0)(typescript@5.7.2)
+        specifier: ^4.0.4
+        version: 4.0.4(svelte@5.14.0)(typescript@5.7.2)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -2710,10 +2710,10 @@ packages:
       svelte:
         optional: true
 
-  svelte-meta-tags@3.1.4:
-    resolution: {integrity: sha512-TUIfhut0iVeTm7f5v/ZuU/tZ9XsNig9bNN8yK0t2x2WL9qw6AxAVRe9i5XddYJE0SuVwkoDCzjoSg5hXv7oWbQ==}
+  svelte-meta-tags@4.0.4:
+    resolution: {integrity: sha512-i0vgxGreM3lXTTxLSuPQLE1n56KAFACHWIXRj7fJCTpd/5D16O97Ha/OXDZS4Lsk+D347VEK4LeMoacsftbeKw==}
     peerDependencies:
-      svelte: ^3.55.0 || ^4.0.0
+      svelte: ^5.0.0
 
   svelte2tsx@0.7.30:
     resolution: {integrity: sha512-sHXK/vw/sVJmFuPSq6zeKrtuZKvo0jJyEi8ybN0dfrqSYVvHu8zFbO0zQKAL8y/fYackYojH41EJGe6v8rd5fw==}
@@ -5494,6 +5494,11 @@ snapshots:
     dependencies:
       postcss: 8.4.47
 
+  postcss-scss@4.0.9(postcss@8.4.49):
+    dependencies:
+      postcss: 8.4.49
+    optional: true
+
   postcss-selector-parser@6.1.2:
     dependencies:
       cssesc: 3.0.0
@@ -5751,8 +5756,8 @@ snapshots:
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
-      postcss: 8.4.47
-      postcss-scss: 4.0.9(postcss@8.4.47)
+      postcss: 8.4.49
+      postcss-scss: 4.0.9(postcss@8.4.49)
     optionalDependencies:
       svelte: 5.14.0
     optional: true
@@ -5767,7 +5772,7 @@ snapshots:
     optionalDependencies:
       svelte: 5.14.0
 
-  svelte-meta-tags@3.1.4(svelte@5.14.0)(typescript@5.7.2):
+  svelte-meta-tags@4.0.4(svelte@5.14.0)(typescript@5.7.2):
     dependencies:
       schema-dts: 1.1.2(typescript@5.7.2)
       svelte: 5.14.0
