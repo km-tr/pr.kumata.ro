@@ -90,8 +90,8 @@ importers:
         specifier: ^6.2.3
         version: 6.2.3(@types/node@22.4.2)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0)
       vite-plugin-kit-routes:
-        specifier: ^0.7.5
-        version: 0.7.5(@sveltejs/kit@2.20.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.3)(vite@6.2.3(@types/node@22.4.2)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0)))(svelte@5.25.3)(vite@6.2.3(@types/node@22.4.2)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0)))
+        specifier: ^0.8.4
+        version: 0.8.4(@sveltejs/kit@2.20.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.3)(vite@6.2.3(@types/node@22.4.2)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0)))(svelte@5.25.3)(vite@6.2.3(@types/node@22.4.2)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0)))
       wrangler:
         specifier: ^3.99.0
         version: 3.99.0
@@ -172,8 +172,16 @@ packages:
     resolution: {integrity: sha512-pO9KhhRcuUyGnJWwyEgnRJTSIZHiT+vMD0kPeD+so0l7mxkMT19g3pjY9GTnHySck/hDzq+dtW/4VgnMkippsQ==}
     engines: {node: '>=6.9.0'}
 
+  '@babel/helper-string-parser@7.25.9':
+    resolution: {integrity: sha512-4A/SCr/2KLd5jrtOMFzaKjVtAei3+2r/NChoBNoZ3EyP/+GlhoaEGoWOZUmFmoITP7zOJyHIMm+DYRd8o3PvHA==}
+    engines: {node: '>=6.9.0'}
+
   '@babel/helper-validator-identifier@7.24.7':
     resolution: {integrity: sha512-rR+PBcQ1SMQDDyF6X0wxtG8QyLCgUB0eRAGguqRLfkCA87l7yAP7ehq8SNj96OOGTO8OBV70KhuFYcIkHXOg0w==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-validator-identifier@7.25.9':
+    resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/highlight@7.24.7':
@@ -185,8 +193,17 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
+  '@babel/parser@7.26.10':
+    resolution: {integrity: sha512-6aQR2zGE/QFi8JpDLjUZEPYOs7+mhKXm86VaKFiLP35JQwQb6bwUE+XbvkH0EptsYhbNBSUGaUBLKqxH1xSgsA==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
   '@babel/types@7.25.2':
     resolution: {integrity: sha512-YTnYtra7W9e6/oAZEHj0bJehPRUlLH9/fbpT5LfB0NhQXyALCRkRs3zH9v07IYhkgpqX6Z78FnuccZr/l4Fs4Q==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/types@7.26.10':
+    resolution: {integrity: sha512-emqcG3vHrpxUKTrxcblR36dcrcoRDvKmnL/dCL6ZsHaShW80qxCAcNhzQZrpeM765VzEos+xOi4s+r4IXzTwdQ==}
     engines: {node: '>=6.9.0'}
 
   '@clack/core@0.3.4':
@@ -942,12 +959,12 @@ packages:
   '@jsr/ryoppippi__eslint-config@0.0.23':
     resolution: {integrity: sha512-2YGVhLJ1FEkbLzHyFoahaiIqOKZjW04Pi1j3mutgGOKIgOBvtjjQUkxsGB0BUyemgesfA5NS11X+QmemrIsQKQ==, tarball: https://npm.jsr.io/~/11/@jsr/ryoppippi__eslint-config/0.0.23.tgz}
 
-  '@kitql/helpers@0.8.11':
-    resolution: {integrity: sha512-7D70fgv8zvJM9Ok18MBLZ3i39w70zVoOSZki3Xn9BQ0dnHRFO6UyUb1hDJyvR0bB990cRdOYKya529DAqCVRAw==}
+  '@kitql/helpers@0.8.12':
+    resolution: {integrity: sha512-aAihk32Ym8XFtwP1mwpuvG5J0Ov2LTnIVItJZI31bTnmlQ5tYSaYgvnD44lNiAjHQw0/tUstqIYRPK8C6wlLoA==}
     engines: {node: ^16.14 || >=18}
 
-  '@kitql/internals@0.10.1':
-    resolution: {integrity: sha512-m+hlNKlIdZZFC3TPw3M0XbrwHOCOO3QZwcGNXOvRJmwOyysFyLEhN8A3jpkbn8dIGBXHH2foPnyjD8kOBs0BEg==}
+  '@kitql/internals@0.10.4':
+    resolution: {integrity: sha512-F/DYyAeyLTbqOG9kGiEve2vQUvPllH4nEOFAE9/COBcNcrsJB4zExkK1a1LiS3qIi5Bq78flMyivvOlQ2TGGdQ==}
     engines: {node: ^16.14 || >=18}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -3082,14 +3099,14 @@ packages:
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
-  vite-plugin-kit-routes@0.7.5:
-    resolution: {integrity: sha512-9r4/ZQPC3HK8Oxl0izgUYR8KxwnwrQ4GXqjgOL+77CybomYLs6k6HLRJXgfpf/hAuBX3Js2cTNCw3XOjaoe5dA==}
+  vite-plugin-kit-routes@0.8.4:
+    resolution: {integrity: sha512-2LPfh3udvhGwHXJMnA52HelstB51DWrwcOgxogj20q0/etQXMPFvackzdoNyKdGo1JYWMzPvDk8HSW3X5E+mhw==}
     engines: {node: ^16.14 || >=18}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
 
-  vite-plugin-watch-and-run@1.7.3:
-    resolution: {integrity: sha512-S53LDD0GsA+GYboANrO0+PEDXwGKuyQdJOEQCAaZvJywriKySpsVKifaTqem3SRfDHVbQMjESPkcAtSZ49qTQw==}
+  vite-plugin-watch-and-run@1.7.4:
+    resolution: {integrity: sha512-JgL2hi7hN5ZRR2gmmLthTU8vn6CBSQPpaBisUyh5Sy3j2LT1Y6HWFVdsH300465Tk5bRY/1Aks6dPpeUW9mhYw==}
     engines: {node: ^16.14 || >=18}
 
   vite@6.2.3:
@@ -3334,7 +3351,11 @@ snapshots:
 
   '@babel/helper-string-parser@7.24.8': {}
 
+  '@babel/helper-string-parser@7.25.9': {}
+
   '@babel/helper-validator-identifier@7.24.7': {}
+
+  '@babel/helper-validator-identifier@7.25.9': {}
 
   '@babel/highlight@7.24.7':
     dependencies:
@@ -3347,11 +3368,20 @@ snapshots:
     dependencies:
       '@babel/types': 7.25.2
 
+  '@babel/parser@7.26.10':
+    dependencies:
+      '@babel/types': 7.26.10
+
   '@babel/types@7.25.2':
     dependencies:
       '@babel/helper-string-parser': 7.24.8
       '@babel/helper-validator-identifier': 7.24.7
       to-fast-properties: 2.0.0
+
+  '@babel/types@7.26.10':
+    dependencies:
+      '@babel/helper-string-parser': 7.25.9
+      '@babel/helper-validator-identifier': 7.25.9
 
   '@clack/core@0.3.4':
     dependencies:
@@ -3840,14 +3870,15 @@ snapshots:
       - typescript
       - vitest
 
-  '@kitql/helpers@0.8.11':
+  '@kitql/helpers@0.8.12':
     dependencies:
       esm-env: 1.2.2
 
-  '@kitql/internals@0.10.1':
+  '@kitql/internals@0.10.4':
     dependencies:
-      '@babel/parser': 7.25.3
-      '@kitql/helpers': 0.8.11
+      '@babel/parser': 7.26.10
+      '@babel/types': 7.26.10
+      '@kitql/helpers': 0.8.12
       recast: 0.23.9
       svelte: 5.25.3
 
@@ -6291,16 +6322,16 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-plugin-kit-routes@0.7.5(@sveltejs/kit@2.20.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.3)(vite@6.2.3(@types/node@22.4.2)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0)))(svelte@5.25.3)(vite@6.2.3(@types/node@22.4.2)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0))):
+  vite-plugin-kit-routes@0.8.4(@sveltejs/kit@2.20.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.3)(vite@6.2.3(@types/node@22.4.2)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0)))(svelte@5.25.3)(vite@6.2.3(@types/node@22.4.2)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0))):
     dependencies:
-      '@kitql/helpers': 0.8.11
-      '@kitql/internals': 0.10.1
+      '@kitql/helpers': 0.8.12
+      '@kitql/internals': 0.10.4
       '@sveltejs/kit': 2.20.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.3)(vite@6.2.3(@types/node@22.4.2)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0)))(svelte@5.25.3)(vite@6.2.3(@types/node@22.4.2)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0))
-      vite-plugin-watch-and-run: 1.7.3
+      vite-plugin-watch-and-run: 1.7.4
 
-  vite-plugin-watch-and-run@1.7.3:
+  vite-plugin-watch-and-run@1.7.4:
     dependencies:
-      '@kitql/helpers': 0.8.11
+      '@kitql/helpers': 0.8.12
       micromatch: 4.0.8
 
   vite@6.2.3(@types/node@22.4.2)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.5.0):
