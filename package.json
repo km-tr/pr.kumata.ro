@@ -30,7 +30,7 @@
 		"eslint-plugin-format": "^1.0.1",
 		"eslint-plugin-svelte": "^3.11.0",
 		"feed": "^5.1.0",
-		"mode-watcher": "^0.5.1",
+		"mode-watcher": "^1.1.0",
 		"octokit": "^4.1.4",
 		"std-env": "^3.9.0",
 		"svelte": "^5.36.17",
