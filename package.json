@@ -33,7 +33,7 @@
 		"mode-watcher": "^0.5.1",
 		"octokit": "^4.1.4",
 		"std-env": "^3.10.0",
-		"svelte": "^5.39.11",
+		"svelte": "^5.41.0",
 		"svelte-check": "^4.3.3",
 		"svelte-meta-tags": "^4.4.1",
 		"typescript": "^5.9.3",
