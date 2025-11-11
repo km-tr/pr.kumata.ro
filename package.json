@@ -31,7 +31,7 @@
 		"eslint-plugin-svelte": "^3.13.0",
 		"feed": "^5.1.0",
 		"mode-watcher": "^0.5.1",
-		"octokit": "^4.1.4",
+		"octokit": "^5.0.5",
 		"std-env": "^3.10.0",
 		"svelte": "^5.43.4",
 		"svelte-check": "^4.3.3",
