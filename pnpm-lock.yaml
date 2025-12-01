@@ -90,8 +90,8 @@ importers:
         specifier: ^7.2.4
         version: 7.2.6(jiti@2.6.1)(tsx@4.19.2)(yaml@2.5.0)
       vite-plugin-kit-routes:
-        specifier: ^0.8.5
-        version: 0.8.5(@sveltejs/kit@2.49.0(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.45.2)(vite@7.2.6(jiti@2.6.1)(tsx@4.19.2)(yaml@2.5.0)))(svelte@5.45.2)(vite@7.2.6(jiti@2.6.1)(tsx@4.19.2)(yaml@2.5.0)))
+        specifier: ^1.0.2
+        version: 1.0.2(@sveltejs/kit@2.49.0(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.45.2)(vite@7.2.6(jiti@2.6.1)(tsx@4.19.2)(yaml@2.5.0)))(svelte@5.45.2)(vite@7.2.6(jiti@2.6.1)(tsx@4.19.2)(yaml@2.5.0)))
       wrangler:
         specifier: ^3.114.15
         version: 3.114.15
@@ -169,20 +169,12 @@ packages:
     resolution: {integrity: sha512-3EwLFhZ38J4VyIP6WNtt2kUdW9dokXA9Cr4IVIFHuCpZ3H8/YFOl5JjZHisrn1fATPBmKKqXzDFvh9fUwHz6CQ==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/helper-string-parser@7.25.9':
-    resolution: {integrity: sha512-4A/SCr/2KLd5jrtOMFzaKjVtAei3+2r/NChoBNoZ3EyP/+GlhoaEGoWOZUmFmoITP7zOJyHIMm+DYRd8o3PvHA==}
-    engines: {node: '>=6.9.0'}
-
   '@babel/helper-string-parser@7.27.1':
     resolution: {integrity: sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-validator-identifier@7.24.7':
     resolution: {integrity: sha512-rR+PBcQ1SMQDDyF6X0wxtG8QyLCgUB0eRAGguqRLfkCA87l7yAP7ehq8SNj96OOGTO8OBV70KhuFYcIkHXOg0w==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/helper-validator-identifier@7.25.9':
-    resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-validator-identifier@7.28.5':
@@ -3119,8 +3111,8 @@ packages:
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
-  vite-plugin-kit-routes@0.8.5:
-    resolution: {integrity: sha512-YZdKsPvR7OroKelspJJncs2/8yCkNrihDXROtBDGemRdUFp14JGtkzjUbyh/fYRgE5E2auF8dPVNLn6wMS2xXw==}
+  vite-plugin-kit-routes@1.0.2:
+    resolution: {integrity: sha512-opKUkP0Ou8cjF/+SDJ4ePQY6HouqnJacxqEldiYdl/5tCpGspG5Khycq9wA+752F5tcfX4y4WJ34CMIYEYyaYg==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     peerDependencies:
@@ -3372,19 +3364,15 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.31
       jsesc: 3.0.2
 
-  '@babel/helper-string-parser@7.25.9': {}
-
   '@babel/helper-string-parser@7.27.1': {}
 
   '@babel/helper-validator-identifier@7.24.7': {}
-
-  '@babel/helper-validator-identifier@7.25.9': {}
 
   '@babel/helper-validator-identifier@7.28.5': {}
 
   '@babel/parser@7.27.0':
     dependencies:
-      '@babel/types': 7.27.0
+      '@babel/types': 7.28.5
 
   '@babel/parser@7.27.7':
     dependencies:
@@ -3414,8 +3402,8 @@ snapshots:
 
   '@babel/types@7.27.0':
     dependencies:
-      '@babel/helper-string-parser': 7.25.9
-      '@babel/helper-validator-identifier': 7.25.9
+      '@babel/helper-string-parser': 7.27.1
+      '@babel/helper-validator-identifier': 7.28.5
 
   '@babel/types@7.28.5':
     dependencies:
@@ -5861,6 +5849,11 @@ snapshots:
     dependencies:
       postcss: 8.5.3
 
+  postcss-scss@4.0.9(postcss@8.5.6):
+    dependencies:
+      postcss: 8.5.6
+    optional: true
+
   postcss-selector-parser@6.1.2:
     dependencies:
       cssesc: 3.0.0
@@ -6146,8 +6139,8 @@ snapshots:
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
-      postcss: 8.5.3
-      postcss-scss: 4.0.9(postcss@8.5.3)
+      postcss: 8.5.6
+      postcss-scss: 4.0.9(postcss@8.5.6)
     optionalDependencies:
       svelte: 5.45.2
     optional: true
@@ -6372,7 +6365,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-plugin-kit-routes@0.8.5(@sveltejs/kit@2.49.0(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.45.2)(vite@7.2.6(jiti@2.6.1)(tsx@4.19.2)(yaml@2.5.0)))(svelte@5.45.2)(vite@7.2.6(jiti@2.6.1)(tsx@4.19.2)(yaml@2.5.0))):
+  vite-plugin-kit-routes@1.0.2(@sveltejs/kit@2.49.0(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.45.2)(vite@7.2.6(jiti@2.6.1)(tsx@4.19.2)(yaml@2.5.0)))(svelte@5.45.2)(vite@7.2.6(jiti@2.6.1)(tsx@4.19.2)(yaml@2.5.0))):
     dependencies:
       '@kitql/helpers': 0.8.13
       '@kitql/internals': 0.10.5
