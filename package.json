@@ -18,7 +18,7 @@
 		"@antfu/ni": "^28.2.0",
 		"@iconify-json/line-md": "^1.2.14",
 		"@iconify-json/ph": "^1.2.2",
-		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.23",
+		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.28",
 		"@sveltejs/adapter-auto": "^7.0.1",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.53.4",
