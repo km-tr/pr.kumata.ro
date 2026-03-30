@@ -69,8 +69,8 @@ importers:
         specifier: ^4.4.5
         version: 4.4.5(picomatch@4.0.3)(svelte@5.55.0)(typescript@5.9.3)
       svelte-meta-tags:
-        specifier: ^4.5.0
-        version: 4.5.0(svelte@5.55.0)
+        specifier: ^4.5.1
+        version: 4.5.2(svelte@5.55.0)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -3021,8 +3021,8 @@ packages:
       svelte:
         optional: true
 
-  svelte-meta-tags@4.5.0:
-    resolution: {integrity: sha512-E1/ULp4j8qwYFQeYBR0WypgOIsZkOnywAExFhufyl07eTvyCDQVW1HaNTSA0n2sX/Hw0jtti+TKuOml5dt2v9A==}
+  svelte-meta-tags@4.5.2:
+    resolution: {integrity: sha512-zU22mSbj0y/hr2neP6K+aGsXX3Ul7retfLOlr4Yq2Edm7PbZatCi4qYQvbK38/StbN6G0FQLR0cVlWN1RPhyyA==}
     peerDependencies:
       svelte: ^5.0.0
 
@@ -6228,7 +6228,7 @@ snapshots:
     optionalDependencies:
       svelte: 5.55.0
 
-  svelte-meta-tags@4.5.0(svelte@5.55.0):
+  svelte-meta-tags@4.5.2(svelte@5.55.0):
     dependencies:
       schema-dts: 1.1.5
       svelte: 5.55.0
