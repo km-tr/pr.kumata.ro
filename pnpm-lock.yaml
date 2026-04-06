@@ -69,7 +69,7 @@ importers:
         specifier: ^4.4.6
         version: 4.4.6(picomatch@4.0.3)(svelte@5.55.1)(typescript@5.9.3)
       svelte-meta-tags:
-        specifier: ^4.5.1
+        specifier: ^4.5.2
         version: 4.5.2(svelte@5.55.1)
       typescript:
         specifier: ^5.9.3
