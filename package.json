@@ -32,7 +32,7 @@
 		"feed": "^5.2.0",
 		"mode-watcher": "^0.5.1",
 		"octokit": "^5.0.5",
-		"std-env": "^3.10.0",
+		"std-env": "^4.1.0",
 		"svelte": "^5.55.4",
 		"svelte-check": "^4.4.6",
 		"svelte-meta-tags": "^4.6.0",
