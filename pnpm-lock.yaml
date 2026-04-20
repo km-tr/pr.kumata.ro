@@ -69,8 +69,8 @@ importers:
         specifier: ^4.4.6
         version: 4.4.6(picomatch@4.0.4)(svelte@5.55.4)(typescript@5.9.3)
       svelte-meta-tags:
-        specifier: ^4.5.2
-        version: 4.5.2(svelte@5.55.4)
+        specifier: ^4.6.0
+        version: 4.6.0(svelte@5.55.4)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -2189,7 +2189,7 @@ packages:
     resolution: {integrity: sha512-suICpxAmZ9A8bzJjEl/+rLJiDKC0X4gYWUxT6URAWBLvlXmtbZd5ySMu/N2ZGEtMCAmflUDPSehrP9BQcsGcSg==}
 
   esrap@https://pkg.pr.new/sveltejs/esrap@87:
-    resolution: {integrity: sha512-/7B6z01CTa9sYMsCREUCwzWPda7WCS2/g8tELUKshdfe3l50iWy7pr9E3m5QOlW9Qh5acXIxf72AWkI+YpkVig==, tarball: https://pkg.pr.new/sveltejs/esrap@87}
+    resolution: {tarball: https://pkg.pr.new/sveltejs/esrap@87}
     version: 2.1.2
 
   esrecurse@4.3.0:
@@ -2969,8 +2969,8 @@ packages:
       svelte:
         optional: true
 
-  svelte-meta-tags@4.5.2:
-    resolution: {integrity: sha512-zU22mSbj0y/hr2neP6K+aGsXX3Ul7retfLOlr4Yq2Edm7PbZatCi4qYQvbK38/StbN6G0FQLR0cVlWN1RPhyyA==}
+  svelte-meta-tags@4.6.0:
+    resolution: {integrity: sha512-UvoylslTqnhoWISfcimskFayGOqgJRLmk5ZWwNoIqfGyRBdc5yq2lxeH+nhxWp9C3x3ywXAw+GL1QyjQpM9WEw==}
     peerDependencies:
       svelte: ^5.0.0
 
@@ -6156,7 +6156,7 @@ snapshots:
     optionalDependencies:
       svelte: 5.55.4
 
-  svelte-meta-tags@4.5.2(svelte@5.55.4):
+  svelte-meta-tags@4.6.0(svelte@5.55.4):
     dependencies:
       schema-dts: 1.1.5
       svelte: 5.55.4
