@@ -35,7 +35,7 @@
 		"std-env": "^4.1.0",
 		"svelte": "^5.55.7",
 		"svelte-check": "^4.4.8",
-		"svelte-meta-tags": "^4.6.0",
+		"svelte-meta-tags": "^4.7.0",
 		"typescript": "^6.0.3",
 		"typescript-svelte-plugin": "^0.3.52",
 		"ufo": "^1.6.4",
