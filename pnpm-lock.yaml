@@ -63,7 +63,7 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0
       svelte:
-        specifier: ^5.56.2
+        specifier: ^5.56.3
         version: 5.56.3(@typescript-eslint/types@8.2.0)
       svelte-check:
         specifier: ^4.6.0
