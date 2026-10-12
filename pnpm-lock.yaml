@@ -69,8 +69,8 @@ importers:
         specifier: ^4.7.6
         version: 4.7.6(picomatch@4.0.7)(svelte@5.57.2(@typescript-eslint/types@8.2.0))(typescript@6.0.3)
       svelte-meta-tags:
-        specifier: ^5.0.2
-        version: 5.0.2(svelte@5.57.2(@typescript-eslint/types@8.2.0))(typescript@6.0.3)
+        specifier: ^5.0.3
+        version: 5.0.3(svelte@5.57.2(@typescript-eslint/types@8.2.0))
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -3085,14 +3085,12 @@ packages:
   sax@1.4.1:
     resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
 
-  schema-dts-lib@1.0.0:
-    resolution: {integrity: sha512-9MEO5vpQH9JdBioUupqluzxSYxPLjhmqRUudk15adUl/ypnRsM2/M1kN3AmVJQeG7nZqcL68H8JlGqQQT6vy9A==}
+  schema-dts-lib@1.1.0:
+    resolution: {integrity: sha512-Nx00FDPHDimSENMznVpADeYUJDsqlMiO9wcs2S+giggNTm5+ruNkM4m9z9qCk6xUJT+ThDM3NxxpwfHfFk1G+Q==}
     engines: {node: '>=14.0.0'}
-    peerDependencies:
-      typescript: '>=4.9.5'
 
-  schema-dts@2.0.0:
-    resolution: {integrity: sha512-t7NoCy3Rn5GHGx6p7s1qIYK/AeIb8ZxJNR9WUNFkwMv2CiiGZBmqqYWc2FlZVm5ZbiHMY4OvBWhj7QtyrFO2Jw==}
+  schema-dts@2.1.0:
+    resolution: {integrity: sha512-Y/NvOvuJUZwrm+EmNqJF3M+bRufERJs1h5GJPLilUuK5D5b53ttU+XZgIjEFaAVRToh+ib+cQawFmxKC5Jt9ow==}
 
   scslre@0.3.0:
     resolution: {integrity: sha512-3A6sD0WYP7+QrjbfNA2FN3FsOaGGFoekCVgTyypy53gPxhbkCIjtO6YWgdrfM+n/8sI8JeXZOIxsHjMTNxQ4nQ==}
@@ -3228,8 +3226,8 @@ packages:
       svelte:
         optional: true
 
-  svelte-meta-tags@5.0.2:
-    resolution: {integrity: sha512-OkAcO7JKBzNGsRY8RE1mlVZYzuL9tS9S1zsV2PDp5cRhVJ4EN+Bu+bpNFHcMP3mBQAnpIRpsEteuBzlfiYjq1w==}
+  svelte-meta-tags@5.0.3:
+    resolution: {integrity: sha512-vdJXLnx0u6sXznzy3DSnQTMnBXiqL0YywM4HulrveKMEmQXhusJv5nzqaa6hxmz6BS4UYewon/UeI7qmxtW4pw==}
     peerDependencies:
       svelte: ^5.0.0
 
@@ -6465,15 +6463,11 @@ snapshots:
 
   sax@1.4.1: {}
 
-  schema-dts-lib@1.0.0(typescript@6.0.3):
-    dependencies:
-      typescript: 6.0.3
+  schema-dts-lib@1.1.0: {}
 
-  schema-dts@2.0.0(typescript@6.0.3):
+  schema-dts@2.1.0:
     dependencies:
-      schema-dts-lib: 1.0.0(typescript@6.0.3)
-    transitivePeerDependencies:
-      - typescript
+      schema-dts-lib: 1.1.0
 
   scslre@0.3.0:
     dependencies:
@@ -6626,12 +6620,10 @@ snapshots:
     optionalDependencies:
       svelte: 5.57.2(@typescript-eslint/types@8.2.0)
 
-  svelte-meta-tags@5.0.2(svelte@5.57.2(@typescript-eslint/types@8.2.0))(typescript@6.0.3):
+  svelte-meta-tags@5.0.3(svelte@5.57.2(@typescript-eslint/types@8.2.0)):
     dependencies:
-      schema-dts: 2.0.0(typescript@6.0.3)
+      schema-dts: 2.1.0
       svelte: 5.57.2(@typescript-eslint/types@8.2.0)
-    transitivePeerDependencies:
-      - typescript
 
   svelte2tsx@0.7.54(svelte@5.57.2(@typescript-eslint/types@8.2.0))(typescript@6.0.3):
     dependencies:
